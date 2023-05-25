@@ -19,18 +19,19 @@ se (mes=2)e(dia>29) entao
 fimse
 
 se ((mes=1)ou(mes=3)ou(mes=5)ou(mes=7)ou(mes=8)ou(mes=10)ou(mes=12)e(dia>31)) entao
-  escreval("Você digitou uma data invalida")
+  escreval("Você digitou um dia invalido")
 fimse
 se ((mes=4)ou(mes=6)ou(mes=9)ou(mes=11) e(dia>30)) entao
-  escreval("Você digitou uma data invalida")
+  escreval("Você digitou um dia invalido")
 fimse
 se dia=0 entao
-  escreval("Você digitou uma data invalida")
+  escreval("Você digitou um dia invalido")
 fimse
 se ano>2023 entao
-  escreval("Você digitou uma data invalida")
-fimse
-escreval("Você digitou uma data valida")
+  escreval("Você digitou um ano invalido")
+senao
+  escreval("Você digitou uma data valida")
+ fimse
 
 
 
