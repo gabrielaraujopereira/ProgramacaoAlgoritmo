@@ -35,8 +35,10 @@ media<- (n1+n2+n3+n4+n5+n6+n7+n8)/4
 
 se media >=7 entao
   escreval(nome, " parabéns você foi aprovado!")
+  escreval("sua média é", media)
 senao
   escreval(nome, " infelizmente você foi reprovado")
+   escreval("sua média é", media)
 fimse
 // Seção de Comandos 
 fimalgoritmo
