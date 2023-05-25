@@ -1,8 +1,8 @@
 algoritmo "Exercicio 4"
-// Função :  dizer se foi aprovado ou não
+// FunÃ§Ã£o :  dizer se foi aprovado ou nÃ£o
 // Autor : Gabriel Araujo Pereira
 // Data : 18/05/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 n1,n2,n3,n4,n5,n6,n7,n8,media:real
 nome: caractere
@@ -31,13 +31,13 @@ leia (n8)
 
 //processamento
 
-media=> (n1+n2+n3+n4+n5+n6+n7+n8)/4
+media<- (n1+n2+n3+n4+n5+n6+n7+n8)/4
 
 se media >=7 entao
-  escreval(nome, "parabéns você foi aprovado!")
+  escreval(nome, " parabÃ©ns vocÃª foi aprovado!")
 senao
-  escreval(nome, "infelizmente você foi re provado")
+  escreval(nome, " infelizmente vocÃª foi reprovado")
 fimse
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
 
