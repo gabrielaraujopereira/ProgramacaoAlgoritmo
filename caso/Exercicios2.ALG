@@ -1,92 +1,92 @@
 Algoritmo "Exercicio 2"
-// Descrição   : Dizer o sigino da pessoa
+// DescriÃ§Ã£o   : Dizer o signo da pessoa
 // Autor(a)    : Gabriel Araujo Pereira
 // Data atual  : 30/06/2023
 
 var
 dia, mes: inteiro
 inicio
-escreval("Iremos dizer qual é o seu signo")
+escreval("Iremos dizer qual Ã© o seu signo")
 escreval("Digite o dia do seu nascimento")
 leia(dia)
-escreval("Digite o mês do seu nascimento (em número)")
+escreval("Digite o mÃªs do seu nascimento (em nÃºmero)")
 leia(mes)
 
 escolha mes
 caso 1
      se dia >= 20 entao
-     escreval("Você é de Aquário")
+     escreval("VocÃª Ã© de AquÃ¡rio")
     senao
-         escreval("Você é de Capricórnio")
+         escreval("VocÃª Ã© de CapricÃ³rnio")
     fimse
 caso 2
      se dia >= 19 entao
-     escreval("Você é de Peixes")
+     escreval("VocÃª Ã© de Peixes")
     senao
-         escreval("Você é de Aquário")
+         escreval("VocÃª Ã© de AquÃ¡rio")
     fimse
 caso 3
      se dia >= 21 entao
-        escreval("Você é de Áries")
+        escreval("VocÃª Ã© de Ãries")
      senao
-          escreval("Você é de Peixes")
+          escreval("VocÃª Ã© de Peixes")
      fimse
 caso 4
       se dia >= 20 entao
-         escreval("Você é de Touro")
+         escreval("VocÃª Ã© de Touro")
       senao
-           escreval("Você é de Áries")
+           escreval("VocÃª Ã© de Ãries")
       fimse
 caso 5
       se dia >= 21 entao
-         escreval("Você é de Gêmeos")
+         escreval("VocÃª Ã© de GÃªmeos")
       senao
-           escreval("Você é de Touro")
+           escreval("VocÃª Ã© de Touro")
       fimse
 caso 6
       se dia >= 22 entao
-         escreval("Você é de Câncer")
+         escreval("VocÃª Ã© de CÃ¢ncer")
       senao
-           escreval("Você é de Gêmeos")
+           escreval("VocÃª Ã© de GÃªmeos")
       fimse
 caso 7
       se dia >= 23 entao
-         escreval("Você é de Leão")
+         escreval("VocÃª Ã© de LeÃ£o")
       senao
-         escreval("Você é de Câncer")
+         escreval("VocÃª Ã© de CÃ¢ncer")
       fimse
 caso 8
       se dia >= 23 entao
-         escreval("Você é de Virgem")
+         escreval("VocÃª Ã© de Virgem")
       senao
-         escreval("Você é de Leão")
+         escreval("VocÃª Ã© de LeÃ£o")
       fimse
 caso 9
       se dia >= 23 entao
-         escreval("Você é de Libra")
+         escreval("VocÃª Ã© de Libra")
       senao
-         escreval("Você é de Virgem")
+         escreval("VocÃª Ã© de Virgem")
       fimse
 caso 10
       se dia >= 23 entao
-         escreval("Você é de Escorpião")
+         escreval("VocÃª Ã© de EscorpiÃ£o")
       senao
-         escreval("Você é de Libra")
+         escreval("VocÃª Ã© de Libra")
       fimse
 caso 11
       se dia >= 22 entao
-         escreval("Você é de Sagitário")
+         escreval("VocÃª Ã© de SagitÃ¡rio")
       senao
-         escreval("Você é de Escorpião")
+         escreval("VocÃª Ã© de EscorpiÃ£o")
       fimse
 caso 12
       se dia >= 22 entao
-         escreval("Você é de Capricórnio")
+         escreval("VocÃª Ã© de CapricÃ³rnio")
       senao
-         escreval("Você é de Sagitário")
+         escreval("VocÃª Ã© de SagitÃ¡rio")
       fimse
 caso contrario
-     escreval("Você digitou um mês inválido")
+     escreval("VocÃª digitou um mÃªs invÃ¡lido")
 fimescolha
 
 fimalgoritmo
